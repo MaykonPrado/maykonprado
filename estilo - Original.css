@@ -5,25 +5,21 @@ body{
 				background:black;
 				font-size: 130%;
 				font-family:Sans-serif;
-				
+				background: rgb(230, 230, 230);
 				}
 a{
-			color: rgb(22, 250, 1);
+			color: black;
 			text-decoration: unset;	
 			
 				}
 h1{
-	color: white;
 	text-align: center;
 	padding-top: 2%;			
 	font-size: 140%;
 				}
-h3{
-	color: white;
-}
 #conteiner{
 				width: 100%;
-				background: rgb(0, 0, 0);
+				background: rgb(240, 240, 240);
 				padding-bottom: 3%;
 				padding-left: 2%;
 		  	    padding-right: 2%;
@@ -32,7 +28,7 @@ h3{
 				text-align: center;
 				display: flex;
 				width: 100%;
-				color: rgb(22, 250, 1);
+				color: black;
 				padding-bottom: 1%;
 				}
 .menu{
@@ -50,10 +46,11 @@ h3{
 				justify-content: space-between; 
 				}
 #corpo{
-				background:rgb(0, 0, 0);
+				background:rgb(255, 255, 255);
+				margin:  1%;
 				
-				border: 1px rgb(22, 250, 1) solid;
-				margin: 1%;
+				
+				box-shadow: white 2px 2px 3px;
 				padding-bottom:0%;
 				width: 100%;
 				}
@@ -66,13 +63,12 @@ h3{
 				padding-top: 3%;
 				margin:1%;
 				width: 100%;
-				background: rgb(0, 0, 180);
+				background: rgb(180, 180, 180);
 				}
 #txtimg{
-				color: white;
-
 				
-			}
+				text-align: justfy;
+				}
 #texto{
 				text-align: justify;
 				padding: 3%;
@@ -102,7 +98,7 @@ h3{
 	width: 100%;
 	padding-right: 10%;
 }
-
+}
 #msgbox{
 	padding-left: 10%;
 	
@@ -120,21 +116,16 @@ h3{
 	padding-bottom:1px"
 }
 .logo{
-	color: rgb(251, 253, 251);
+	color: black;
 	width: 100%;
-	font-family: serif;
+	font-family: cursive;
 	text-align: justify;
 }
-.img{
-	width: 30px;
-	font-family: cursive;
-	
-}
 .logos{
-	color: rgb(251, 253, 251);
+	color: black;
 	width: 100%;
 	
-	font-family: serif;
+	font-family: cursive;
 	text-align: left;
 }
 .h2txt{
@@ -143,18 +134,15 @@ h3{
 .imglogo{
 	width: 30px;
 	font-family: cursive;
-	background-color: white;
-	border-radius: 5px;
-	
 
 }
 #rodape{
 	padding-top: 5%;
 	padding-bottom: 5%;
-	color: rgb(22, 250, 1);
+	
 	text-align: center;
 	width: 100%;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(230, 230, 230);
 }
 
 #box2{
@@ -174,33 +162,33 @@ h3{
   
   .form-contact-input {
 	width: 100%;
-	color: white;
+	color: #292929;
 	font-size: 18px;
-	background-color:black;
-	border: 1px solid rgb(22, 250, 1);
+	background-color: #E9E9E9;
+	border: 1px solid #E9E9E9;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	height: 40px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid rgb(22, 250, 1);
-	border-left: 1px solid rgb(22, 250, 1);
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 	text-indent: 20px;
   }
   
   .form-contact-textarea {
 	width: 100%;
-	color: white;
+	color: #292929;
 	font-size: 18px;
-	background-color: black;
-	border: 1px solid rgb(22, 250,1);
+	background-color: #E9E9E9;
+	border: 1px solid #E9E9E9;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	height: 200px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid rgb(22, 250, 1);
-	border-left: 1px solid rgb(22, 250, 1);
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 	text-indent: 20px;
 	padding-top: 16px;
 	padding-left: 0;
@@ -212,16 +200,16 @@ h3{
 	width: 100%;
 	font-size: 18px;
 	border-radius: 4px;
-	color: black;
+	color: #fff;
 	height: 40px;
 	opacity: .8;
 	margin-bottom: 20px;
 	cursor: pointer;
-	background: rgb(22, 250,1);
+	background: rgb(43, 42, 42);
 	display: block;
 	border: none;
-	border-bottom: 1px solid rgb(22, 250, 1);
-	border-right: 1px solid rgb(22,250,1);
+	border-bottom: 1px solid #2e2a2a;
+	border-right: 1px solid #2e2a2a;
 	transition: 1s;
   }
   
@@ -229,5 +217,5 @@ h3{
 	opacity: 1;
   }
   h4{
-	  color: rgb(255, 255, 255);
+	  color: black;
   }
